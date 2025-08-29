@@ -18,7 +18,7 @@ all my notes are beginner-friendly, pink-coded, and made with love 🌸
 ## 🖤 find me elsewhere
 - tiktok: [@nahdaaj](https://tiktok.com/@nahdaaj)
 - github: [@nahdaaj](https://github.com/nahdaaj)
-- personal website: [nahdaajawed.com/](https://nahdaajawed.com)
+- personal website: [nahdaajawed.com](https://nahdaajawed.com/)
 
 feel free to reach out if you have any suggestions, ideas or just need help understanding something!
 i'd love to meet you 🖤
