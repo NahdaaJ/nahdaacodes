@@ -1,2 +1,24 @@
-# nahdaacodes
-A repository to store all the coding notes and learning materials from my video content! 🌸
+# nahdaacodes 🌸
+
+hi! i'm nahdaa, a software engineer who loves making cute apps, breaking things, fighting imposter syndrome, and slowly figuring it all out🧋
+this repo is where i’m collecting all my dev notes, tiktok tutorial writeups, and beginner-friendly guides.
+
+<div align=center>
+  <h3> <pre>next topic: github + git basics</pre> </h3>
+</div>
+
+## 🌸 what's inside (so far):
+
+## 🐰 why i made this
+for some people, actual readable content is much easier to follow and retain than my video content!
+so i thought this would be helpful for them 🩷
+all my notes are beginner-friendly, pink-coded, and made with love 🌸
+
+
+## 🖤 find me elsewhere
+- tiktok: [@nahdaaj](https://tiktok.com/@nahdaaj)
+- github: [@nahdaaj](https://github.com/nahdaaj)
+- personal website: [https://nahdaajawed.com/](https://nahdaajawed.com/)
+
+feel free to reach out if you have any suggestions, ideas or just need help understanding something!
+i'd love to meet you 🖤
