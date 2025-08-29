@@ -8,20 +8,22 @@
 - [Getting Started with GitHub + Git](#getting-started-with-github--git-)
 - [Commands](#commands-)
 - [Keywords](#keywords-)
-- [Feedback](#feedback)
+- [Feedback](#feedback-)
+<br>
 
 ## What is GitHub? 🌸
 [GitHub](www.github.com) is a website that stores your code and projects.
 - It's like Google Drive, but for your code.
 - Code is stored in **`repositories`**, and you can share your repositories and collaborate with others.
 - GitHub can also be used as a portfolio to showcase your projects!
-
+<br>
 
 ## How Does it Work? 🌸
 GitHub runs on [Git](https://git-scm.com/), which is a tool used for **`version control`**.
 - It stores versions of your code that you have "pushed" to the repositories. These "pushes" are called **`commits`**.
 - You will be able to see all your past commits.
 - If you accidentally push code that breaks everything, you can roll back to a previous commit where everything was still working!
+<br>
 
 ## What are "Branches"? 🌸
 In Git, you have **`branches`**, and you will start with a **`main`** branch. It's important that the **`main`** branch **always** has working code.
@@ -33,7 +35,8 @@ When you want to add a new feature, you create a branch that branches off from *
 <img src="/images/git-branch.jpg" style="border:solid 1px">
 
 When you have completed your feature and it's working, you can merge your branch back into main.
-
+<br>
+<br>
 ## Getting Started with GitHub + Git 🌸
 1. Create a GitHub account.
     <br>
@@ -113,7 +116,7 @@ When you have completed your feature and it's working, you can merge your branch
 **That’s it!** 💕 Refresh your repository on GitHub and you’ll see your first commit there! 😁
 
    > 🖤**Tip:** The **`README.md`** is your project's intro page. You can write what the project does, how to install it, features, goals, or anything you want!
-
+<br>
 
 ## Commands 🌸
 
@@ -178,8 +181,7 @@ _These are commands you type into your terminal or command line — not Git-spec
 - **`code .`** – opens the current folder in VS Code (only works if VS Code is installed properly). 
 
 </details>
-
-
+<br>
 
 ## Keywords 🌸
 
@@ -190,6 +192,7 @@ _These are commands you type into your terminal or command line — not Git-spec
 - **push** – sending your saved changes (commits) to GitHub.
 
 - **rollback** – going back to a previous version of your code if something breaks.
+<br>
 
 ## Feedback 🌸
 If you found this useful, have suggestions, or just want to chat, feel free to send me a message! 🖤
