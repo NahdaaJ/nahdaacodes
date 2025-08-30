@@ -197,6 +197,6 @@ _These are commands you type into your terminal or command line — not Git-spec
 ## Feedback 🌸
 If you found this useful, have suggestions, or just want to chat, feel free to send me a message! 🖤
 
-- tiktok: [@nahdaaj](https://tiktok.com/@nahdaaj)
+- tiktok: [@nahdaacodes](https://tiktok.com/@nahdaacodes)
 - github: [@nahdaaj](https://github.com/nahdaaj)
 - personal website: [nahdaajawed.com](https://nahdaajawed.com/)
