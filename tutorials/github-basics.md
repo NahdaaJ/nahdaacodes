@@ -1,10 +1,11 @@
 # GitHub Basics 🐈‍⬛
 
-<h2>Table of Contents</h2>
+## Table of Contents
 
 - [What is GitHub?](#what-is-github-)
 - [How Does it Work?](#how-does-it-work-)
 - [What are "Branches"?](#what-are-branches-)
+- [What is a "README" and a ".gitignore"?](#what-is-a-readme-and-a-gitignore-)
 - [Getting Started with GitHub + Git](#getting-started-with-github--git-)
 - [Commands](#commands-)
 - [Keywords](#keywords-)
@@ -12,7 +13,7 @@
 <br>
 
 ## What is GitHub? 🌸
-[GitHub](www.github.com) is a website that stores your code and projects.
+[GitHub](https://github.com/) is a website that stores your code and projects.
 - It's like Google Drive, but for your code.
 - Code is stored in **`repositories`**, and you can share your repositories and collaborate with others.
 - GitHub can also be used as a portfolio to showcase your projects!
@@ -35,33 +36,51 @@ When you want to add a new feature, you create a branch that branches off from *
 <img src="/images/git-branch.jpg" style="border:solid 1px">
 
 When you have completed your feature and it's working, you can merge your branch back into main.
+
 <br>
+
+## What is a "README" and a ".gitignore"? 🌸
+- [**README.md**](): The intro page for your project. Write what it does, how to use it, and anything else you want!
+- **.gitignore**: A file that tells Git which files/folders to ignore (not track), e.g. secret keys, password files, build files, etc.
+
 <br>
+
 ## Getting Started with GitHub + Git 🌸
-1. Create a GitHub account.
+1. **Create a [GitHub](https://github.com/) account.**
+
     <br>
-2. Navigate to the **`Repositories`** tab at the top, and click the **`New`** button. This will open a form to create a new repository.
+
+2. **Creating a new repo:**  
+   Navigate to the **`Repositories`** tab at the top, and click the **`New`** button. This will open a form to create a new repository.
     <div align=center>
-        <img src="/images/new-repo-btn.jpg" height="50px">
+        <img src="/images/new-repo-btn.jpg">
     </div>
+
+   - Call it anything! But use kebab-case for the name.
+   - Include a **`README.md`**.
+   - Add a **`.gitignore`** and choose the template for whatever language or IDE you're using (this can be added later as well).
+   - Choose whether you want it to be public or private.
+   - Click **`Create Repository`**!
+
     <br>
-3. To create the repository:
-    - call it anything! but use kebab-case for the name,
-    - include a **`README.md`**,
-    - add a **`.gitignore`** and choose the template of whatever language or IDE you're using (this can be added later as well),
-    - choose whether you want it to be public or private,
-    - and click **`Create Repository`**!!
-    <br>
-4. Once your repository is created, click the green **`Code`** button at the top, and copy the link it gives you under the **`HTTPS`** tab and save it somewhere:
+
+4. **Copy repo URL:** Once your repository is created, click the green **`Code`** button at the top, and copy the link it gives you under the **`HTTPS`** tab and save it somewhere:
     <div align=center>
         <img src="/images/git-clone.jpg" height="300px">
     </div>
+
     <br>
-5. Install [Git](https://git-scm.com/downloads) (not required for Mac users usually):
+
+5. **Install [Git](https://git-scm.com/downloads) (not required for Mac users usually):**
     1. go through the installation process and choose all the recommended settings,
     2. and make sure your main branch is called main and NOT master (this should now be defaulted to main anyway)
+
     <br>
-6. Cloning and setting up your repo: Open your **`terminal`**, you can do this by searching it in your PC's start bar.
+
+6. **Setting up your repo locally:** Open your **`terminal`**, you can do this by searching it in your PC's start bar. There are two methods to setting up your repo locally, **A** is easier for beginners, **B** is better for certain types of projects (such as C# projects).
+   
+    **A) Cloning an existing repo:**
+    Use this if you've already created a repo on GitHub and want to copy it to your computer. This method automatically connects your local folder to the remote repo.
     1. Check git installed correctly by running this command:
         ```bash
             git --version
@@ -83,8 +102,31 @@ When you have completed your feature and it's working, you can merge your branch
         ```bash
             cd yourrepo
         ```
+
+   
+    **B) Initialising a new local folder and connecting it to GitHub:**
+    Use this if you want to start a project locally and push it to a new repo on GitHub later. You'll need to set up the connection manually.
+    1. Create a new folder for your project and navigate into it:
+        ```bash
+            mkdir my-new-project && cd my-new-project
+        ```
+    2. Initialise git in the folder:
+        ```bash
+            git init
+        ```
+    3. You can jump to step 7 to make your first commit, then come back here to connect your folder to GitHub.
+    4. Connect your local folder to a remote GitHub repo (replace the link with your repo's URL):
+        ```bash
+            git remote add origin https://github.com/yourname/yourrepo.git
+        ```
+    5. Push your code to GitHub:
+        ```bash
+            git push -u origin main
+        ```
+   
+    That's it! Now your local project is linked to your GitHub repo.
         <br>
-7. Now it's time to push your first commit to GitHub! 🌸  
+7. **Now it's time to push your first commit to GitHub!** 🌸  
    We’ll keep it simple and just push a small change to the `main` branch.
 
    1. Open the `README.md` file in VS Code, Notepad, or any text editor.
@@ -109,7 +151,7 @@ When you have completed your feature and it's working, you can merge your branch
       git push
       ```
     > **🖤 FOR NEXT TIME:** Before pushing next time, remember to pull any new changes using:
-        **`git pull`**
+        **`git pull`** or **`git pull --rebase`**
         This helps prevent conflicts, especially if you've made changes on GitHub directly, or you're collaborating with others. Even if you're working solo, it's a good habit to **`pull`** before every **`push`**.
 
 
@@ -185,12 +227,11 @@ _These are commands you type into your terminal or command line — not Git-spec
 
 ## Keywords 🌸
 
+- **repository (repo)** – a folder on GitHub that stores your project’s files and history.
+- **merge** – combining changes from one branch into another.
 - **branch** – a separate line of work in your project. Useful for trying out new features without touching your main code.
-
 - **commit** – a saved snapshot of your code at a specific moment.
-
 - **push** – sending your saved changes (commits) to GitHub.
-
 - **rollback** – going back to a previous version of your code if something breaks.
 <br>
 
