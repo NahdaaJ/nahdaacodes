@@ -4,7 +4,7 @@ hi! i'm nahdaa, a software engineer who loves making cute apps, breaking things,
 this repo is where i’m collecting all my dev notes, tiktok tutorial writeups, and beginner-friendly guides.
 
 <div align=center>
-  <h3> <pre>next topic: thinking ... 🤔 </pre> </h3>
+  <h3> <pre>next topic: electron ⚛️</pre> </h3>
 </div>
 
 ## 🌸 what's inside (so far):
